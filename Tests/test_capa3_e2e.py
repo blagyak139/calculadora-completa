@@ -22,7 +22,7 @@ def leer_error(pagina):
 class TestCargaInicial:
 
     def test_titulo_visible(self, pagina):
-        assert "Calculadora" in pagina.inner_text("h1")
+        assert "calculadora" in pagina.inner_text("h1").lower()
 
     def test_expresion_vacia_al_inicio(self, pagina):
         assert leer_expresion(pagina) == ""

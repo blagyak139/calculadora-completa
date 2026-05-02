@@ -1,3 +1,7 @@
 C:\Users\nellyr\Documents\Ingeniería de software\Calculadora>myenv\Scripts\activate.bat
 
 uvicorn src.api:app --port 8000 --reload
+
+git add .
+git commit -m "Pruebas de las 3 capas pasando al 100%"
+git push
